@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./eric-meyer-reset.min_.css" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
   <title>My new title</title>
 </head>
-<body>
+<body class="my-body">
   <header class="header">
 
     <div class="main-menu-container">
@@ -28,25 +31,25 @@
     <section>
       <ul class="benefits">
         <li>
-          <img src="./images/icon1.svg" alt="" />
+          <img src="./images/icon1.svg" alt="" width="44" height="41"/>
           <h3 class="benefits__title">Resources</h3>
           <p class="benefits__text">Text</p>
           <a href="#" class="link-item">Explore more</a>
         </li>
         <li>
-          <img src="./images/icon2.svg" alt="" />
+          <img src="./images/icon2.svg" alt="" width="45" height="44"/>
           <h3 class="benefits__title">Training & funding</h3>
           <p class="benefits__text">Text</p>
           <a href="#" class="link-item">Explore more</a>
         </li>
         <li>
-          <img src="./images/icon3.svg" alt="" />
+          <img src="./images/icon3.svg" alt="" width="47" height="33"/>
           <h3 class="benefits__title">Connect</h3>
           <p class="benefits__text">Text</p>
           <a href="#" class="link-item">Explore more</a>
         </li>
         <li>
-          <img src="./images/icon4.svg" alt="" />
+          <img src="./images/icon4.svg" alt="" width="44" height="44" />
           <h3 class="benefits__title">Communicate</h3>
           <p class="benefits__text">Text</p>
           <a href="#" class="link-item">Explore more</a>
@@ -55,25 +58,41 @@
 
       <div>
 
-        <div>
-          <div>
-            <h3>It's all about</h3>
-            <h2>Fitness first</h2>
-            <img src="" alt="" />
-            <p>Text</p>
-            <a href="#">Read more</a>
+        <div class="row">
+          <div class="item">
+            <h3 class="item__subtitle">It's all about</h3>
+            <h2 class="item__title">Fitness first</h2>
+            <img src="./images/icon5.svg" width="15" height="23"  alt="" />
+            <p class="item__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud.</p>
+            <a href="#" class="item__link">Read more</a>
           </div>
-          <img src="" alt="" />
+          <div class="item__image">
+            <img src="./images/img1.jpg" alt="" height="194"/>
+            <div class="item__image-hover">
+              <h2 class="item__title">Fitness first</h2>
+              <h3 class="item__subtitle">it’s all about</h3>
+            </div>
+          </div>
+
         </div>
 
-        <div>
-         <img src="" alt="" />
-         <div>
-          <h3>Love your</h3>
-          <h2>Your body</h2>
-          <img src="" alt="" />
-          <p>Text</p>
-          <a href="#">Read more</a>
+        <div class="row">
+
+          <div class="item__image">
+           <img src="./images/img2.jpg" alt="" height="194" />
+           <div class="item__image-hover">
+            <h2 class="item__title">Fitness first</h2>
+            <h3 class="item__subtitle">it’s all about</h3>
+          </div>
+        </div>
+        <div class="item">
+          <h3 lass="item__subtitle">Love your</h3>
+          <h2 class="item__title">Your body</h2>
+          <img src="./images/icon5.svg" width="15" height="23"  alt="" />
+          <p class="item__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud.</p>
+          <a href="#" class="item__link">Read more</a>
         </div>
 
       </div>
